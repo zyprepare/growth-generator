@@ -5,4 +5,9 @@
 
 使用eslint验证代码规范性，使用mock-server模拟API请求响应数据。<br>
 
-文件规范：所有的页面必须在src的pages目录中创建，格式为：pages/文件名/index.ejs、pages/文件名/index.js，其中，.ejs为模板文件，.js为程序入口文件。
+文件规范：所有的页面必须在src的pages目录中创建，格式为：pages/文件名/index.ejs、pages/文件名/index.js，其中，.ejs为模板文件，.js为程序入口文件。<br>
+
+使用步骤：
+  1、npm i -g yo
+  2、npm i -g generator-light
+  3、yo light

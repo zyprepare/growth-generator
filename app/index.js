@@ -7,7 +7,7 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the legendary ${chalk.red('generator-yun')} generator!`)
+      yosay(`Welcome to the yeoman ${chalk.red('generator-light')} generator!`)
     );
 
     const prompts = [{
@@ -48,7 +48,6 @@ module.exports = class extends Generator {
       'webpack.pro.config.js',
       '.editorconfig',
       '.eslintrc.js',
-      '.gitignore',
       'README.md',
       'src',
       'tool',
@@ -83,7 +82,7 @@ module.exports = class extends Generator {
 
   end() {
     this.log(yosay(
-      'Your front templates has been created successfully!'
+      'Your project templates has been created successfully!'
     ));
   }
 };

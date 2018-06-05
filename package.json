@@ -1,6 +1,6 @@
 {
-  "name": "generator-yunlight",
-  "version": "1.0.1",
+  "name": "generator-light",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": [
     "yeoman-generator",
-    "generator-yunlight"
+    "generator-light"
   ],
   "author": "",
   "license": "ISC",
