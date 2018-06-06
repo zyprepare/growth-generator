@@ -1,6 +1,6 @@
 {
   "name": "generator-light",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   ],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyprepare/growth-generator.git"
+  },
   "dependencies": {
     "yeoman-generator": "^2.0.1",
     "chalk": "^2.1.0",
