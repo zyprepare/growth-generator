@@ -92,8 +92,8 @@ const makeWebpack = (options) => {
       splitChunks: {
         cacheGroups: {
           vendor: {
-            test: /node_modules\//,
-            chunks: "initial",
+            test: /[\\/]node_modules[\\/]/,
+            chunks: "all",
             name: "vendor",
             priority: 10,
             enforce: true
@@ -110,8 +110,7 @@ const makeWebpack = (options) => {
     },
     plugins: [
       new MiniCssExtractPlugin({
-        filename: "[name].css?v=[chunkhash:8]",
-        chunkFilename: "[id].css"
+        filename: "[name].css?v=[chunkhash:8]"
       }),
       new webpack.BannerPlugin('前端开发'),
       new webpack.DefinePlugin({
