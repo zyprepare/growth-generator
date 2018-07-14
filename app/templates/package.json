@@ -1,7 +1,7 @@
 {
-  "name": "growth-webpack",
+  "name": "<%= name %>",
   "version": "1.0.0",
-  "description": "growth-webpack",
+  "description": "<%= description %>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx webpack-dev-server --config webpack.dev.config.js --mode development --open",
@@ -17,7 +17,10 @@
   "pre-commit": [
     "lint"
   ],
-  "author": "JD",
+  "author": {
+    "name": "<%= author %>",
+    "email": "<%= email %>"
+  },
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -33,6 +36,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
+    "basewebpack": "^1.0.1",
     "clean-webpack-plugin": "^0.1.19",
     "cross-env": "^5.1.6",
     "css-loader": "^0.28.11",
